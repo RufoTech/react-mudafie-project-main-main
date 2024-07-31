@@ -1,9 +1,14 @@
 import React from 'react'
 
-const Button:React.FC = () => {
+
+interface ButtonProps{
+    inTextBtn:string
+}
+const Button:React.FC<ButtonProps> = ({inTextBtn}) => {
   return (
-    <button className="custom-button">
-    GET A CONSULTATION <span className="arrow">›</span>
+  
+    <button className="custom-button">{inTextBtn}
+     <span className="arrow">›</span>
   </button>
   )
 }
