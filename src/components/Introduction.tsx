@@ -26,10 +26,7 @@ const Introduction: React.FC = () => {
               <div className="container">
                 <span className='intro-h1'>
                   <h1 className='playfair-display intro-h1'>Udfort Luxury Residences</h1>
-                  <div className="social-media-introduction d-flex justify-content-end">
-                    <h6 className='text-light'>SOCIAL MEDIA ------</h6>
-                    
-                  </div>
+           
                 </span>
                 <h2 className='text-light roboto-bold intro-h2 py-4'>Living Spaces In Pecherska-Kiev</h2>
                
