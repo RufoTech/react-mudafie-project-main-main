@@ -228,7 +228,10 @@ height: 90vh;
   margin-left: 35px;
     
   }
-  
+  .social-media-introduction h6{
+    transform: rotate(90deg); 
+    display: inline-block; 
+  }
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
